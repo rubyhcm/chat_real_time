@@ -3,15 +3,15 @@
 </div>
 
 <div class="row col-md-8 col-md-offset-2" id="chatrooms">
-  <%= render partial: 'chatroom_form', locals: {chatroom: @chatroom} %>
+  <%= render partial: 'chatroom_form', locals: { chatroom: @chatroom } %>
   <div id="chatroom-errors">
-    
+
   </div>
-    <ul id="chatroom-index"> 
-  <% if @chatrooms.any? %>
-      <%= render @chatrooms%>
-  <%else %>
-    </ul>
-    <p>Be the first one to make a chatroom!</p>
-  <% end %>
-</div>
+  <ul id="chatroom-index">
+    <% if @chatrooms.any? %>
+      <%= render @chatrooms %>
+    <% else %>
+      </ul>
+      <p>Be the first one to make a chatroom!</p>
+    <% end %>
+    </div>

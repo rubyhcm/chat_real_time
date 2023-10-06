@@ -3,19 +3,19 @@
 
     <h2 id="log-in-title">Log in</h2>
     <div class="auth-form well">
-    <%= form_for(User.new, url: login_path) do |f| %>
+      <%= form_for(User.new, url: login_path) do |f| %>
 
-      <%=f.label :username%>
-      <div class="input-group">
-        <span class="input-group-addon">@</span>
-          <%= f.text_field :username, class: "form-control"%>
-      </div>
+        <%= f.label :username %>
+        <div class="input-group">
+          <span class="input-group-addon">@</span>
+          <%= f.text_field :username, class: "form-control" %>
+        </div>
 
-      <div class="actions">
-        <%= f.submit "log in", class: "btn btn-primary" %>
-      </div>
-    <% end %>
+        <div class="actions">
+          <%= f.submit "Log in", class: "btn btn-primary" %>
+        </div>
+      <% end %>
     </div>
-    <%= render partial: 'layouts/flash_errors'%>
+    <%= render partial: 'layouts/flash_errors' %>
   </div>
 </div>
