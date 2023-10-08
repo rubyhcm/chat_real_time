@@ -7,3 +7,7 @@
 
 .byebug_history
 web_url.txt
+.env
+
+.idea/*
+
