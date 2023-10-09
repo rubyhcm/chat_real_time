@@ -8,9 +8,9 @@ development:
   url: <%= ENV['DATABASE_URL'] %>
 #  database: chat_dev
 
-#test:
-#  <<: *default
-#  database: chat_test
+test:
+  <<: *default
+  database: chat_test
 
 production:
   <<: *default
