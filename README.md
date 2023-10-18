@@ -6,7 +6,7 @@ You can view my deployment of this application [here](https://chat-wsnf.onrender
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
-To view an implementation of this project that uses multipe subscriptions to multiple chatrooms, check out this [repo](https://github.com/rubyhcm/chat_real_time)
+To view an implementation of this project, check out this [repo](https://github.com/rubyhcm/chat_real_time)
 
 ### Running Locally
 
