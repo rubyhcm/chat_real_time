@@ -2,7 +2,7 @@
 
 Users can sign up/log in with a username and create a chatroom or choose from an existing one to start real-time messaging.
 
-You can view my deployment of this application [here](https://chat-wsnf.onrender.com/) (it may take sometime to load if the server is sleep, because it 's free) , or you can use the button below to deploy your own version.
+You can view my deployment of this application [here](https://chat.rails-blog.online/) (it may take sometime to load if the server is sleep, because it 's free) , or you can use the button below to deploy your own version.
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
